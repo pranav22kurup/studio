@@ -8,95 +8,95 @@ body {
 
 @layer base {
   :root {
-    --background: 198 83% 94%; /* Light Blue #E5F5FC */
-    --foreground: 210 20% 20%; /* Darker blue/gray for text on light blue */
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 7%;   /* Near Black */
 
-    --card: 198 83% 98%; /* Slightly lighter than background or white */
-    --card-foreground: 210 20% 20%;
+    --card: 0 0% 97%;         /* Off White */
+    --card-foreground: 0 0% 7%; /* Near Black */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 20% 20%;
+    --popover: 0 0% 100%;     /* White */
+    --popover-foreground: 0 0% 7%; /* Near Black */
 
-    --primary: 197 76% 53%; /* Vibrant Blue #29ABE2 */
-    --primary-foreground: 0 0% 100%; /* White for contrast on vibrant blue */
+    --primary: 0 80% 50%;     /* Strong Red */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 197 60% 85%; /* Lighter shade of primary blue */
-    --secondary-foreground: 197 76% 30%; /* Darker blue for text on lighter blue */
+    --secondary: 0 70% 90%;   /* Light Pinkish Red */
+    --secondary-foreground: 0 80% 25%; /* Darker Red */
 
-    --muted: 198 50% 90%;
-    --muted-foreground: 198 30% 50%;
+    --muted: 0 0% 94%;        /* Light Gray */
+    --muted-foreground: 0 0% 40%; /* Medium Gray */
 
-    --accent: 120 73% 75%; /* Green #90EE90 */
-    --accent-foreground: 120 50% 25%; /* Dark Green for text on light green */
+    --accent: 0 80% 50%;      /* Strong Red */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%; /* Default Destructive Red */
+    --destructive-foreground: 0 0% 98%; /* White */
 
-    --border: 198 50% 80%;
-    --input: 198 50% 85%;
-    --ring: 197 76% 53%; /* Primary color for rings */
+    --border: 0 0% 89%;       /* Light Gray */
+    --input: 0 0% 93%;        /* Light Gray */
+    --ring: 0 80% 50%;        /* Strong Red */
 
     --radius: 0.5rem;
 
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --chart-1: 0 80% 50%;  /* Main Red */
+    --chart-2: 0 0% 25%;   /* Dark Gray */
+    --chart-3: 0 75% 70%;  /* Lighter Red */
+    --chart-4: 0 0% 50%;   /* Medium Gray */
+    --chart-5: 0 80% 35%;  /* Darker Red */
     
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 98%; /* Off-white */
+    --sidebar-foreground: 0 0% 7%; /* Near Black */
+    --sidebar-primary: 0 80% 50%; /* Strong Red */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 0 0% 92%; /* Light gray for hover */
+    --sidebar-accent-foreground: 0 80% 50%; /* Red for text on hover */
+    --sidebar-border: 0 0% 89%; /* Light gray border */
+    --sidebar-ring: 0 80% 50%; /* Strong Red */
   }
 
   .dark {
-    --background: 210 20% 10%; /* Dark Blue */
-    --foreground: 198 83% 94%; /* Light Blue text */
+    --background: 0 0% 7%;    /* Near Black */
+    --foreground: 0 0% 93%;   /* Off White */
 
-    --card: 210 20% 15%;
-    --card-foreground: 198 83% 94%;
+    --card: 0 0% 12%;         /* Dark Gray */
+    --card-foreground: 0 0% 93%; /* Off White */
 
-    --popover: 210 20% 10%;
-    --popover-foreground: 198 83% 94%;
+    --popover: 0 0% 7%;       /* Near Black */
+    --popover-foreground: 0 0% 93%; /* Off White */
 
-    --primary: 197 76% 53%; /* Vibrant Blue #29ABE2 */
+    --primary: 0 75% 55%;     /* Red for dark mode */
     --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 197 60% 30%; /* Darker shade of primary blue */
-    --secondary-foreground: 197 76% 80%; /* Lighter blue text */
+    --secondary: 0 70% 25%;   /* Darker Red */
+    --secondary-foreground: 0 0% 93%; /* Off White */
 
-    --muted: 210 20% 20%;
-    --muted-foreground: 198 30% 70%;
+    --muted: 0 0% 20%;        /* Medium Dark Gray */
+    --muted-foreground: 0 0% 60%; /* Light Gray */
 
-    --accent: 120 73% 65%; /* Slightly darker green for dark mode */
-    --accent-foreground: 120 80% 95%; /* Very light green/white text */
+    --accent: 0 75% 55%;      /* Red for dark mode */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 70% 50%; /* Red for dark mode destructive */
+    --destructive-foreground: 0 0% 98%; /* White */
 
-    --border: 210 20% 25%;
-    --input: 210 20% 25%;
-    --ring: 197 76% 53%;
+    --border: 0 0% 20%;       /* Dark Gray */
+    --input: 0 0% 15%;        /* Dark Gray */
+    --ring: 0 75% 55%;        /* Red for dark mode */
 
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --chart-1: 0 75% 55%;  /* Main Red (dark) */
+    --chart-2: 0 0% 85%;   /* Light Gray */
+    --chart-3: 0 70% 75%;  /* Lighter Red (dark) */
+    --chart-4: 0 0% 65%;   /* Medium-Light Gray */
+    --chart-5: 0 75% 40%;  /* Darker Red (dark) */
 
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 10%; /* Darker gray for sidebar */
+    --sidebar-foreground: 0 0% 93%; /* Off-white */
+    --sidebar-primary: 0 75% 55%; /* Red (dark theme) */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 0 0% 18%; /* Dark gray for hover */
+    --sidebar-accent-foreground: 0 75% 55%; /* Red for text on hover */
+    --sidebar-border: 0 0% 20%; /* Dark gray border */
+    --sidebar-ring: 0 75% 55%; /* Red (dark theme) */
   }
 }
 
