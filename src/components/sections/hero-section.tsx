@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="relative py-20 md:py-32 bg-gradient-to-b from-background to-background/70 overflow-hidden">
       <div className="absolute inset-0 opacity-30">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://placehold.co/1600x900.png"
           alt="Playful sports background"
           data-ai-hint="playful sports"
           layout="fill"
