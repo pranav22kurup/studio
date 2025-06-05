@@ -18,7 +18,7 @@ export function HeroSection() {
       </div>
       <div className="container relative z-10 mx-auto px-6 text-center">
         <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
-          Discover Your <span className="text-accent-foreground">Sporting Superpower</span>
+          Discover Your <span className="text-black">Sporting Superpower</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg leading-8 text-foreground/80 sm:text-xl">
           KLIMB makes finding and learning new sports fun and easy for young athletes. Let's start your adventure!
