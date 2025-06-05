@@ -12,7 +12,7 @@ export function QuizLauncher() {
           Take our fun and interactive quiz to discover sports that match your personality and interests. It only takes a few minutes!
         </p>
         <div className="mt-10">
-          <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-xl transform hover:scale-105 transition-transform duration-300 px-10 py-6 text-lg">
+          <Button asChild size="lg" className="bg-black hover:bg-neutral-800 text-accent-foreground shadow-xl transform hover:scale-105 transition-transform duration-300 px-10 py-6 text-lg">
             <Link href="/quiz">Start the Quiz!</Link>
           </Button>
         </div>
